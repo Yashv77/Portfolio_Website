@@ -102,6 +102,7 @@ nav a:hover .nav-line {
     background: var(--color-highlight);
     transition-duration: 200ms;
 }
+.project-image-container
 
 .social-link-container {
     display: flex;
@@ -256,6 +257,7 @@ section h2 {
     aspect-ratio: 16 / 9;
     order: 2;
     border-radius: 0.25rem;
+    border: 2px solid #94a3b8;
 }
 
 .project-image-container img {

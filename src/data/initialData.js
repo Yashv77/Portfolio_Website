@@ -74,7 +74,7 @@ export const initialProjects = [
       creative: "Tried to get rich by predicting stock prices using Deep Learning. It successfully predicted the past! Built an LSTM to see if I can outsmart the market."
     },
     tags: ["Python", "Deep Learning", "LSTM", "Time Series"],
-    imageUrl: "/_old_site/assets/Stock_Prediction.png",
+    imageUrl: "/assets/Stock_Prediction.png",
     link: "https://stock-prediction-ml-lstm.streamlit.app/",
     github: "",
     gradient: "from-blue-600 to-cyan-500",
@@ -95,7 +95,7 @@ export const initialProjects = [
       creative: "If a drone and a boat had a baby. It flies, it hovers, it swims. Built from scratch because choosing between land and sky was too boring."
     },
     tags: ["CAD Design", "Prototyping", "Manufacturing", "Analysis"],
-    imageUrl: "/_old_site/assets/Arcraft_1.3.4 v4_hv.png",
+    imageUrl: "/assets/Arcraft_1.3.4 v4_hv.png",
     link: "https://arcraft.netlify.app/",
     github: "",
     gradient: "from-purple-600 to-indigo-600",
@@ -116,7 +116,7 @@ export const initialProjects = [
       creative: "Built a React app so I can manage the projects that I usually procrastinate on. Features drag-n-drop everything and looks suspiciously clean."
     },
     tags: ["React", "JavaScript", "CSS", "API Integration"],
-    imageUrl: "/_old_site/assets/PMA.png",
+    imageUrl: "/assets/PMA.png",
     link: "https://project-management-app-1-2.netlify.app/",
     github: "",
     gradient: "from-emerald-500 to-teal-500",
@@ -137,7 +137,7 @@ export const initialProjects = [
       creative: "Stared at thousands of rows of data until they confessed which marketing strategy actually brought in money. Excel sheets are my canvas."
     },
     tags: ["Data Analytics", "A/B Testing", "Regression", "Visualization"],
-    imageUrl: "/_old_site/assets/abtesting.png",
+    imageUrl: "/assets/abtesting.png",
     link: "",
     github: "",
     gradient: "from-orange-500 to-red-500",
@@ -158,7 +158,7 @@ export const initialProjects = [
       creative: "Built a secret-agent-level encryption tool right in your browser. Because plain text is for amateurs."
     },
     tags: ["JavaScript", "Chrome API", "HTML", "CSS"],
-    imageUrl: "/_old_site/assets/ted.png",
+    imageUrl: "/assets/ted.png",
     link: "",
     github: "",
     gradient: "from-zinc-600 to-stone-500",
@@ -179,7 +179,7 @@ export const initialProjects = [
       creative: "A browser utility that locks you out of your favorite time-wasting sites so you're forced to actually get work done."
     },
     tags: ["JavaScript", "Chrome API", "HTML", "CSS"],
-    imageUrl: "/_old_site/assets/weblock.png",
+    imageUrl: "/assets/weblock.png",
     link: "",
     github: "",
     gradient: "from-red-600 to-orange-600",
@@ -200,7 +200,7 @@ export const initialProjects = [
       creative: "Automated the librarian's job using MongoDB, Express, React, and Node. Because tracking who has 'Harry Potter' manually in 2024 is unacceptable."
     },
     tags: ["MongoDB", "Express", "React", "Node.js"],
-    imageUrl: "/_old_site/assets/LMS.png",
+    imageUrl: "/assets/LMS.png",
     link: "",
     github: "",
     gradient: "from-indigo-500 to-blue-500",
@@ -221,7 +221,7 @@ export const initialProjects = [
       creative: "A hyper-efficient electric pod designed for the Shell Eco-Marathon. Squeezing miles out of electrons like nobody's business."
     },
     tags: ["EV Design", "CAD", "Energy Efficiency", "Innovation"],
-    imageUrl: "/_old_site/assets/SEM.png",
+    imageUrl: "/assets/SEM.png",
     link: "",
     github: "",
     gradient: "from-lime-500 to-emerald-600",
@@ -242,7 +242,7 @@ export const initialProjects = [
       creative: "A tiny portable oscilloscope that fits in your pocket but still reads signals like a heavy benchtop rig."
     },
     tags: ["Electronics", "Signal Processing", "Circuit Design", "Embedded Systems"],
-    imageUrl: "/_old_site/assets/PDSO.png",
+    imageUrl: "/assets/PDSO.png",
     link: "",
     github: "",
     gradient: "from-cyan-500 to-blue-600",
@@ -263,7 +263,7 @@ export const initialProjects = [
       creative: "Taking garbage wrappers and burning them cleanly to purify water. The ultimate zero-waste alchemy system."
     },
     tags: ["Sustainability", "Thermal Analysis", "Process Design", "Environmental"],
-    imageUrl: "/_old_site/assets/TLMSWCS.png",
+    imageUrl: "/assets/TLMSWCS.png",
     link: "",
     github: "",
     gradient: "from-amber-500 to-yellow-600",

@@ -1,0 +1,71 @@
+Yash Vardhan
+B.E Mechanical Engineering
+CSE Minor
+TIET, Patiala
++91-8102330119
+TIET Campus, Patiala 147004
+yvardhan be21@thapar.edu
+yash-vardhan-portfolio-website.netlify.app/
+1 EDUCATION
+Degree
+Institution
+CGPA/Percentage
+Year
+B.E.
+Thapar Institute of Engineering & Technology, Patiala
+8.24
+2021-Present
+CBSE Class XII
+Veena Vidya Niketan, Patna
+86.4%
+2020
+CBSE Class X
+Saint John’s Academy, Hajipur
+87%
+2018
+2 EXPERIENCE
+Technical Consultant — Valency Renewable Solutions Pvt. Ltd.
+Oct 2025 – Apr 2026
+• Developed Python-based automated email outreach system targeting solar equipment vendors across India,
+with integrated web scraping and vendor database architecture.
+• Completely refactored Valency Energy digital platform (valencyenergy.com) with real-time client inquiry man-
+agement, project pipeline tracking, and business metrics dashboard.
+• Designed vendor segmentation and filtering mechanisms based on attributes including location, product types,
+capacity, and certifications.
+• Provided client engagement and business development support: lead qualification, proposal preparation, and
+partner coordination.
+Engineering Intern – Product Development & Simulation — Intute.ai
+Jan 2025 – June 2025
+• Led full-cycle 2-wheeler EV development: project design, market research, and high-level system design.
+• Contributed to robotic welding integration: fixtures designing, CAD modelling & simulations, and cycle-time
+estimation.
+• Performed mechanical simulation like stress, fatigue & thermal analysis, and regulatory checks for various
+components.
+3 PERSONAL & ACADEMIC PROJECTS
+Research Papers
+• “Multi-Terrain Classification for Legged Robots Using HistGradient Boosting Machine Learning Technique” –
+Accepted at CoDit 2025, Croatia.
+• “A Stacked Ensemble Machine Learning Technique for Robust Multi-Terrain Classification in Legged Robots” –
+Accepted at AIR 2025, IIT Jodhpur.
+ML Projects
+• Developed LSTM-based neural network for time-series forecasting of stock prices.
+• Conducted comparative study between ARIMA and Gaussian Process Regression (GPR) models for crop yield
+forecasting.
+Data Analytics Projects
+• Performed A/B testing, regression analysis, and visualizations for data-driven decision-making.
+• Analyzed smart device usage data to extract user behavior insights for strategic marketing.
+• Compared behavioral patterns of casual riders and annual members in Cyclistic bike-share dataset.
+4 SKILLS
+Analytical: Data Analytics, Finance & Business Analytics, Statistics
+CSE: Basic Web Development, Extensions Development, Basic AI & ML
+Soft Skills: Project Management (Leadership, Project Planning, Attention to Detail), Communication (Col-
+laboration, Emotional Intelligence, Conflict Resolution), Problem-Solving (Creativity, Resourcefulness, Decision-
+Making)
+Mechanical: Designing, CAD Modelling, Simulations, FEM & CFD Analysis, Engineering Drawing, Manufac-
+turing, CAM, Automation & Robotics
+5 SOFTWARES & PROGRAMMING LANGUAGES
+Python | C | HTML | CSS | JavaScript | SQL | Excel | Tableau | Power BI | Autodesk Fusion 360 | SolidWorks |
+Ansys | Autodesk CFD Ultimate | CREO Parametric | Autodesk AutoCAD | Matlab
+6 EXTRACURRICULAR ACTIVITIES
+• Led community outreach initiatives with Team Neki, Hajipur, organizing social and charitable events.
+• Freelancing as a virtual assistant for more than years for a US-based digital marketing firm

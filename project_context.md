@@ -121,3 +121,12 @@ Use the all content that is already there on the website and implement the chang
 - Updated the ResumeGeneratorModal: Rewrote the PDF document mapping to stop using hardcoded Extracurricular data. 
 - Added ExtracurricularData pulling dynamically from the Zustand useStore to map real extracurricular items.
 - Inserted an Extracurricular tab inside the PDF Builder form Modal to toggle them visibly in and out before downloading the PDF.
+
+### Direct Database Injection (April 19, 2026)
+- Created a Python script leveraging the local supabase.js Rest API credentials to extract live web data without discarding recent inline edits.
+- Validated existing personalProjectsData schema and pushed 5 new Data Science and ML projects sequentially to the Supabase dataset.
+
+### Data Science Summarization & AI Content Generation (April 19, 2026)
+- Paraphrased and reduced the length of the 5 newly injected Data Science projects to prevent UI overflowing while retaining highly technical keywords.
+- Generated 5 customized, ultra-modern tech-style dashboard and data mapping graphics via AI generation tools to match the glassmorphism website aesthetic.
+- Hooked new imageUrl parameters pointing to the newly bundled assets inside the local data repository.

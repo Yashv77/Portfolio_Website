@@ -24,7 +24,7 @@ export default function About() {
           onChange={handleUpdate} 
           multiline={true}
           elementType="p"
-          className="text-lg leading-relaxed whitespace-pre-wrap block"
+          className="text-base md:text-lg leading-relaxed whitespace-pre-wrap block"
         />
       </div>
     </motion.div>

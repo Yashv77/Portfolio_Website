@@ -130,3 +130,11 @@ Use the all content that is already there on the website and implement the chang
 - Paraphrased and reduced the length of the 5 newly injected Data Science projects to prevent UI overflowing while retaining highly technical keywords.
 - Generated 5 customized, ultra-modern tech-style dashboard and data mapping graphics via AI generation tools to match the glassmorphism website aesthetic.
 - Hooked new imageUrl parameters pointing to the newly bundled assets inside the local data repository.
+
+### Responsive Typography & Sizing Fix (May 1, 2026)
+- **Issue**: User reported that the portfolio "looks way too big" and disorganized on some devices, sharing screenshots where the primary "Yash Vardhan" heading wrapped to a second line and UI elements appeared excessively large.
+- **Resolution**: Implemented responsive font scaling across key components to ensure layout integrity on mid-sized (`1024px-1366px`) displays.
+- **Portfolio.jsx**: Reduced the massive `lg:text-8xl` primary heading down to a fluid `text-4xl sm:text-5xl lg:text-6xl xl:text-7xl` progression. Also scaled down the subtitle slightly to maintain hierarchy.
+- **About.jsx**: Adjusted the large body text from a static `text-lg` to a responsive `text-base md:text-lg`.
+- **Softwares.jsx**: Adjusted the padding and text sizing of the skill badges to be slightly smaller and fluid (`text-xs md:text-sm`).
+- **Result**: Elements now scale down gracefully on screens where `lg:w-1/2` container boundaries are tight, preventing text wrapping or UI card blowout without sacrificing the aesthetic design.

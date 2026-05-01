@@ -50,7 +50,7 @@ export default function Softwares() {
                     value={software}
                     onChange={(val) => handleItemUpdate(index, val)}
                     elementType="li"
-                    className={`text-sm font-bold px-5 py-2.5 rounded-lg transition-transform hover:scale-105 ${
+                    className={`text-xs md:text-sm font-bold px-4 py-2 md:px-5 md:py-2.5 rounded-lg transition-transform hover:scale-105 ${
                       isPro 
                         ? 'bg-blue-50 text-blue-700 border border-blue-100 hover:bg-blue-100' 
                         : 'bg-stone-800 text-stone-300 border border-stone-700 hover:bg-stone-700 hover:text-white'

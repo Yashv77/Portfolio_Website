@@ -86,7 +86,7 @@ export default function Portfolio() {
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5 }}
-                className="text-6xl font-bold tracking-tight text-slate-900 dark:text-stone-200 sm:text-7xl lg:text-8xl"
+                className="text-4xl font-bold tracking-tight text-slate-900 dark:text-stone-200 sm:text-5xl lg:text-6xl xl:text-7xl"
               >
                 Yash Vardhan
               </motion.h1>
@@ -94,7 +94,7 @@ export default function Portfolio() {
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="mt-3 text-lg font-medium tracking-tight text-slate-900 dark:text-stone-400 sm:text-xl"
+                className="mt-3 text-base font-medium tracking-tight text-slate-900 dark:text-stone-400 sm:text-lg lg:text-xl"
               >
                 {isPro ? "Mechanical Engineer | Minor in CSE" : "Professional Builder"}
               </motion.h2>

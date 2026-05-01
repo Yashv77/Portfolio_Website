@@ -80,8 +80,9 @@ export default function Portfolio() {
         <div className="lg:flex lg:justify-between lg:gap-12 h-full">
           
           {/* STATIC LEFT SIDE */}
-          <header className="lg:sticky lg:top-0 lg:flex lg:w-1/2 lg:flex-col lg:justify-start py-12 lg:pt-24 lg:pb-12 h-[30vh] lg:h-full overflow-y-auto hide-scrollbar relative">
-            <div className="flex flex-col gap-2 relative z-20">
+          <header className="lg:sticky lg:top-0 lg:flex lg:w-1/2 lg:flex-col lg:justify-start h-[30vh] lg:h-full overflow-y-auto hide-scrollbar relative">
+            <div className="flex flex-col my-auto py-12 lg:py-24 w-full">
+              <div className="flex flex-col gap-2 relative z-20">
               <motion.h1 
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -176,6 +177,7 @@ export default function Portfolio() {
                 </li>
               ))}
             </motion.ul>
+            </div>
 
             {/* DESKTOP TOGGLE BUTTON (Bottom Left of the Left Column) */}
             <motion.div 

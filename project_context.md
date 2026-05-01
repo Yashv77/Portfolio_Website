@@ -132,9 +132,10 @@ Use the all content that is already there on the website and implement the chang
 - Hooked new imageUrl parameters pointing to the newly bundled assets inside the local data repository.
 
 ### Responsive Typography & Sizing Fix (May 1, 2026)
-- **Issue**: User reported that the portfolio "looks way too big" and disorganized on some devices, sharing screenshots where the primary "Yash Vardhan" heading wrapped to a second line and UI elements appeared excessively large.
-- **Resolution**: Implemented responsive font scaling across key components to ensure layout integrity on mid-sized (`1024px-1366px`) displays.
+- **Issue**: User reported that the portfolio "looks way too big" and disorganized on some devices, sharing screenshots where the primary "Yash Vardhan" heading wrapped to a second line and UI elements appeared excessively large. Upon further investigation, this was due to browser-level font size preferences scaling up `rem` units dynamically on different PCs.
+- **Resolution**: Implemented responsive font scaling across key components and locked the base root font size.
+- **Font Scale Lock**: Added `html { font-size: 16px !important; }` to `index.css` to strictly force `1rem = 16px`, completely decoupling the Tailwind text utility sizing from unpredictable browser font preferences and guaranteeing the layout aspect ratio everywhere.
 - **Portfolio.jsx**: Reduced the massive `lg:text-8xl` primary heading down to a fluid `text-4xl sm:text-5xl lg:text-6xl xl:text-7xl` progression. Also scaled down the subtitle slightly to maintain hierarchy.
-- **About.jsx**: Adjusted the large body text from a static `text-lg` to a responsive `text-base md:text-lg`.
-- **Softwares.jsx**: Adjusted the padding and text sizing of the skill badges to be slightly smaller and fluid (`text-xs md:text-sm`).
-- **Result**: Elements now scale down gracefully on screens where `lg:w-1/2` container boundaries are tight, preventing text wrapping or UI card blowout without sacrificing the aesthetic design.
+- **About.jsx**: Adjusted the large body text from a static `text-lg` to a responsive `text-base md:text-lg` and added `max-w-xl` to the content card so it doesn't infinitely stretch on ultra-wide screens.
+- **Softwares.jsx**: Adjusted the padding and text sizing of the skill badges to be slightly smaller and fluid (`text-xs md:text-sm`) and added `max-w-xl` to its container.
+- **Result**: Elements now scale down gracefully and lock perfectly into their intended pixel ratios across all displays, preventing text wrapping or UI card blowout without sacrificing the aesthetic design.

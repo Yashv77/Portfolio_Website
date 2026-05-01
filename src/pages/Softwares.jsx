@@ -28,7 +28,7 @@ export default function Softwares() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.5 }}
         >
-          <div className={`p-8 rounded-2xl border ${
+          <div className={`max-w-xl w-full p-8 rounded-2xl border ${
             isPro 
               ? 'bg-white border-slate-200' 
               : 'bg-black border-stone-800 hover:shadow-[0_0_20px_rgba(255,255,255,0.02)]'

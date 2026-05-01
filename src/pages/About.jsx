@@ -18,7 +18,7 @@ export default function About() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="snap-center w-full min-h-[100svh] flex flex-col justify-center py-12 px-6"
     >
-      <div className={`p-8 rounded-3xl transition-all ${isPro ? 'bg-slate-50 border border-slate-200 text-slate-800 hover:shadow-xl' : 'bg-black border border-stone-800 text-stone-300 hover:border-stone-700 hover:shadow-[0_0_30px_rgba(255,255,255,0.02)]'}`}>
+      <div className={`max-w-xl w-full p-8 rounded-3xl transition-all ${isPro ? 'bg-slate-50 border border-slate-200 text-slate-800 hover:shadow-xl' : 'bg-black border border-stone-800 text-stone-300 hover:border-stone-700 hover:shadow-[0_0_30px_rgba(255,255,255,0.02)]'}`}>
         <EditableText 
           value={aboutData[mode]} 
           onChange={handleUpdate} 

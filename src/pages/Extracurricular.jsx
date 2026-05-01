@@ -1,11 +1,13 @@
 import { motion } from 'framer-motion'
 import { Heart, Calendar, Plus, ExternalLink } from 'lucide-react'
 import { useStore } from '../store/useStore'
+import { useAppMode } from '../context/ModeContext'
 import { useNavigate } from 'react-router-dom'
 import EditableText from '../components/EditableText'
 
 export default function Extracurricular() {
-  const { mode, extracurricularData, updateField, isAdmin } = useStore()
+  const { extracurricularData, updateField, isAdmin } = useStore()
+  const mode = useAppMode()
   const isPro = mode === 'professional'
   const navigate = useNavigate()
 

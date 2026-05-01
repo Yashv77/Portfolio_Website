@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion'
 import { Plus } from 'lucide-react'
 import { useStore } from '../store/useStore'
+import { useAppMode } from '../context/ModeContext'
 import EditableText from '../components/EditableText'
 
 export default function Skills() {
-  const { skillsData, mode, updateField, isAdmin } = useStore()
+  const { skillsData, updateField, isAdmin } = useStore()
+  const mode = useAppMode()
   const isPro = mode === 'professional'
 
   const handleGroupUpdate = (groupIndex, field, newValue) => {

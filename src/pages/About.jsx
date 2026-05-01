@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion'
 import { useStore } from '../store/useStore'
+import { useAppMode } from '../context/ModeContext'
 import EditableText from '../components/EditableText'
 
 export default function About() {
-  const { mode, aboutData, updateField } = useStore()
+  const { aboutData, updateField } = useStore()
+  const mode = useAppMode()
   const isPro = mode === 'professional'
 
   const handleUpdate = (newText) => {

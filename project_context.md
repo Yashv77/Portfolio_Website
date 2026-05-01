@@ -139,3 +139,10 @@ Use the all content that is already there on the website and implement the chang
 - **About.jsx**: Adjusted the large body text from a static `text-lg` to a responsive `text-base md:text-lg` and added `max-w-xl` to the content card so it doesn't infinitely stretch on ultra-wide screens.
 - **Softwares.jsx**: Adjusted the padding and text sizing of the skill badges to be slightly smaller and fluid (`text-xs md:text-sm`) and added `max-w-xl` to its container.
 - **Global 25% Scale Reduction**: Reduced the locked root `html` font size in `index.css` from `16px` down to `12px`. Because TailwindCSS strictly utilizes `rem` units for nearly all typography, margins, padding, and max-widths, overriding this base size down by exactly 25% shrinks the entire UI layout and spacing uniformly without requiring individual component adjustments, providing the user with their explicitly requested 25% smaller aesthetic.
+### Horizontal Scroll Mode Switching (May 1, 2026)
+- **Feature**: Replaced the static mode toggle buttons with a "Dual-World" horizontal scroll interaction. 
+- **Horizontal Snap Layout**: The root `Portfolio.jsx` now features a `snap-x snap-mandatory` horizontal container holding two full-screen slides: "Professional" on the left and "Creative" on the right. 
+- **ModeContext Architecture**: Developed a new `ModeContext` provider and `useAppMode` hook. This allows rendering two instances of the same content tree side-by-side while forcing each to render with its own respective mode logic, bypassing the global store for rendering while still syncing state on scroll.
+- **Minimalist Interaction**: Removed all visible mode indicators, toggle buttons, and hints. The interface is now completely clean, relying on intuitive gestures.
+- **Mouse Drag Support**: Engineered a custom mouse-dragging scroll logic for PC users. Users can now click and drag the entire page horizontally to "peel" back one world and reveal the other.
+- **Gesture-Driven Sync**: Native trackpad swipes and Shift + Mouse Wheel interactions remain supported, ensuring a seamless experience across all input devices without any persistent UI overlays.

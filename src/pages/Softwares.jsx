@@ -1,10 +1,12 @@
 import { motion } from 'framer-motion'
 import { Plus } from 'lucide-react'
 import { useStore } from '../store/useStore'
+import { useAppMode } from '../context/ModeContext'
 import EditableText from '../components/EditableText'
 
 export default function Softwares() {
-  const { softwaresData, mode, updateField, isAdmin } = useStore()
+  const { softwaresData, updateField, isAdmin } = useStore()
+  const mode = useAppMode()
   const isPro = mode === 'professional'
 
   const handleItemUpdate = (index, newValue) => {

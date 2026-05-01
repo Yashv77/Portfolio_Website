@@ -1,11 +1,13 @@
 import { motion } from 'framer-motion'
 import { Plus, ExternalLink } from 'lucide-react'
 import { useStore } from '../store/useStore'
+import { useAppMode } from '../context/ModeContext'
 import { useNavigate } from 'react-router-dom'
 import EditableText from '../components/EditableText'
 
 export default function Education() {
-  const { educationData, mode, updateField, isAdmin } = useStore()
+  const { educationData, updateField, isAdmin } = useStore()
+  const mode = useAppMode()
   const isPro = mode === 'professional'
   const navigate = useNavigate()
 

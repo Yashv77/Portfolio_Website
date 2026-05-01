@@ -1,12 +1,14 @@
 import { motion } from 'framer-motion'
 import { ExternalLink, Github, Plus } from 'lucide-react'
 import { useStore } from '../store/useStore'
+import { useAppMode } from '../context/ModeContext'
 import { useNavigate } from 'react-router-dom'
 import EditableText from '../components/EditableText'
 
 // eslint-disable-next-line react/prop-types
 const ProjectCard = ({ project, index, storeField, data }) => {
-  const { mode, isAdmin, updateField } = useStore()
+  const { isAdmin, updateField } = useStore()
+  const mode = useAppMode()
   const isPro = mode === 'professional'
   const navigate = useNavigate()
   const projectType = storeField === 'academicProjectsData' ? 'academic-project' : 'personal-project'

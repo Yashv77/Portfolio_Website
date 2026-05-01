@@ -80,7 +80,7 @@ export default function Portfolio() {
         <div className="lg:flex lg:justify-between lg:gap-12 h-full">
           
           {/* STATIC LEFT SIDE */}
-          <header className="lg:sticky lg:top-0 lg:flex lg:w-1/2 lg:flex-col lg:justify-center py-12 lg:py-0 h-[30vh] lg:h-full relative">
+          <header className="lg:sticky lg:top-0 lg:flex lg:w-1/2 lg:flex-col lg:justify-start py-12 lg:pt-24 lg:pb-12 h-[30vh] lg:h-full overflow-y-auto hide-scrollbar relative">
             <div className="flex flex-col gap-2 relative z-20">
               <motion.h1 
                 initial={{ opacity: 0, x: -30 }}
@@ -155,7 +155,7 @@ export default function Portfolio() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
-              className="mt-12 flex items-center gap-5 relative z-20"
+              className="mt-12 mb-24 flex items-center gap-5 relative z-20"
             >
               {[
                 { icon: Mail, href: "mailto:yashvardhan7749@gmail.com" },
